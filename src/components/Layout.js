@@ -5,12 +5,12 @@ import { normalize } from 'polished'
 import Header from './Header'
 import Footer from './Footer'
 
-const GlobalStyle = createGlobalStyle`${normalize()}`
+const NormalizeStyle = createGlobalStyle`${normalize()}`
 
 const Layout = ({ children }) => {
   return (
     <>
-      <GlobalStyle />
+      <NormalizeStyle />
       <Header />
       <main>{children}</main>
       <Footer />
