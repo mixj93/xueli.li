@@ -2,7 +2,8 @@ module.exports = {
   siteMetadata: {
     title: `Blog of Li Xueli`,
     description: `Love, Death & Codes ❤️ ❌ ⌨️`,
-    author: `@mixj93`
+    author: `@mixj93`,
+    siteUrl: `https://xueli.li`
   },
   plugins: [
     `gatsby-plugin-sitemap`,
