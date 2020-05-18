@@ -74,7 +74,7 @@ const Icons = styled.div`
     text-decoration: none;
     cursor: pointer;
     float: left;
-    margin-right: 10px;
+    margin-right: 20px;
     display: flex;
     width: 24px;
     height: 24px;
@@ -88,6 +88,10 @@ const Icons = styled.div`
       svg {
         stroke: #535457;
       }
+    }
+
+    &:last-child {
+      margin-right: 0;
     }
   }
 `
